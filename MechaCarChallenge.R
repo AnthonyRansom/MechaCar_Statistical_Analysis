@@ -8,10 +8,10 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 #Deliverable 2
 Suspension_Coil <- read.csv('Suspension_Coil.csv',stringsAsFactors = F) #read in dataset
 total_summary <- Suspension_Coil %>%summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI)) #summazrize all data in the PSI column
-view(total_summary)
+View(total_summary)
 
 lot_summary <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>%summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep') #Summarize PSI column grouped by manufacturing lot
-view(lot_summary)
+View(lot_summary)
 
 #Deliverable 3
 t.test(Suspension_Coil$PSI,mu=1500) #One-sample t-test of all lots to the population mean of 1500
