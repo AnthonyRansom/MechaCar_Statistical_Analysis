@@ -10,7 +10,7 @@ Looking at the output of the linear regression it has been determined from the P
 ![total_summary](/analysis/total_summary.PNG)
 ![lot_summary](/analysis/lot_summary.PNG)
 
-According to the summary of all the PSI data in the dataset the variance for the suspension coils is 62 which does not exceed the design specifications but when the variance is calculated per manufacturing lot it has been determined the suspension coils produced by manufacturing lot 3 exceed the 100 pound per square inch design specification with a variance of 170 while the variance for manufacturing lot 1 and 2 are within the design specification with variance values of 1 and 7 respectively.
+According to the summary of all the PSI data in the dataset the variance for the suspension coils is 62 which does not exceed the design specifications of 100 pounds per square inch but when the variance is calculated per manufacturing lot it has been determined the suspension coils produced by manufacturing lot 3 exceed the 100 pound per square inch design specification with a variance of 170 while the variance for manufacturing lot 1 and 2 are within the design specification with variance values of 1 and 7 respectively.
 
 ## T-Tests on Suspension Coils
 ![t_test_all](/analysis/t_test_all.PNG)
