@@ -21,7 +21,7 @@ The one-sample t-Test for all manufacturing lots within the provided dataset ret
 ![t_test_lot2](/analysis/t_test_lot2.PNG)
 ![t_test_lot3](/analysis/t_test_lot3.PNG)
 
-The one-sample t-Test for each manufacturing lot returned p-values for Lot1, Lot2 and Lo3 of 1, 0.6 and 0.04 respectively indicating manufacturing lot1 and lot2 are statistically similar to the population but the p-value for lot 3 is below the 0.05 significance level indicating the mean of the PSI reading for lot3 is statistically different from the population.
+The one-sample t-Test for each manufacturing lot returned p-values for Lot1, Lot2 and Lo3 of 1, 0.6 and 0.04 respectively indicating manufacturing lot1 and lot2 are statistically similar to the population but the p-value for lot 3 is below the 0.05 significance level indicating the mean of the PSI readings for lot3 is statistically different from the population.
 
 ## Study Design: MechaCar vs Competition
 In order to quantify how the MechaCar performs against other brands in the market the following statistical study can be used.
@@ -35,8 +35,9 @@ The study will look to proof/disprove the following hypotheses
  - Alternative hypothesis: the mean amount of time it takes the MechaCar to accelerate to 60 mph is less than competitor vehicles in the same price range.
  
 The following statistical test will be used to test the hypothesis
- - A two-way ANOVA statistical test will be used to test the hypothesis as the ANOVO test will determine if there is a statistical difference of multiple independent variables such as the vehicle name and the MSRP between the distribution mean of the different samples of acceleration time from each vehicle in the study.
-the following data will need to be collected from for each vehicle manufacture by competitive brands
+ - A two-way ANOVA statistical test will be used to test the hypothesis as the ANOVA test will determine if there is a statistical difference of multiple independent variables such as the vehicle name and the MSRP between the distribution mean of the different samples of acceleration time from each vehicle in the study.
+ 
+The following data will need to be collected from for each vehicle manufacture by competitive brands
  - The average time it takes the MechaCar and competitor cars to accelerate to 60 mph
  - The MSRP of vehicles on the market within $5000 of the MSRP of the MechaCar
  - The brand and model name of each vehicle
